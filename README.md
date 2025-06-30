@@ -20,7 +20,8 @@ dashboard/
 │
 ├── main.py # Main Python file that runs the Dash app
 ├── requirements.txt # Required Python packages
-└── README.md # This file
+├── README.md # This file
+└── images/ # Folder containing screenshots
 
 yaml
 Copy
@@ -33,16 +34,16 @@ Edit
 ### 1️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/prathikshaj1203/dashboard-python.git
+cd dashboard-python
 2️⃣ Create a Virtual Environment (optional but recommended)
 bash
 Copy
 Edit
 python -m venv venv
-venv\Scripts\activate    # On Windows
+venv\Scripts\activate     # On Windows
 # OR
-source venv/bin/activate # On Mac/Linux
+source venv/bin/activate  # On Mac/Linux
 3️⃣ Install Requirements
 bash
 Copy
@@ -54,29 +55,22 @@ Copy
 Edit
 python main.py
 Then open your browser and go to:
-http://127.0.0.1:8050/
+➡️ http://127.0.0.1:8050/
 
 🛠️ Tech Stack
 Python 🐍
 
 Dash (by Plotly) 📊
 
+📷 Screenshots
+🖥️ Main Dashboard View
 
-## 📷 Screenshots
 
-###Main Dashboard View
+📊 Bar Graph
 
-![Dashboard Screenshot 1](images/Screenshot1.png)
 
-### Bar Graph
+📈 Line Graph
 
-![Dashboard Screenshot 2](images/Screenshot2.png)
-
-###Line Graph
-
-![Dashboard Screenshot 3](images/Screenshot3.png)
-
----
 
 📌 Features
 Simple, interactive layout
@@ -101,5 +95,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 This project is open-source and available under the MIT License.
 
 ✨ Credits
-Created with ❤️ by [Your Name]
-Follow me on LinkedIn | GitHub
+Created with ❤️ by Prathiksha J
