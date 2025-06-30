@@ -1,6 +1,6 @@
 # 📊 Simple Dash Dashboard Project
 
-This is a basic interactive dashboard built using [Dash](https://dash.plotly.com/), a powerful Python framework for building web applications with data visualization.
+This is a basic interactive dashboard built using [Dash](https://dash.plotly.com/), a powerful Python framework for building web applications with real-time data visualization.
 
 ---
 
@@ -18,10 +18,14 @@ This dashboard demonstrates how to use Dash to create a simple web interface wit
 
 dashboard/
 │
-├── main.py # Main Python file that runs the Dash app
+├── images/
+│ ├── Screenshot1.png
+│ ├── Screenshot2.png
+│ └── Screenshot3.png
+│
+├── main.py # Main Dash application
 ├── requirements.txt # Required Python packages
-├── README.md # This file
-└── images/ # Folder containing screenshots
+└── README.md # This file
 
 yaml
 Copy
@@ -31,20 +35,20 @@ Edit
 
 ## 💻 How to Run the Project
 
-### 1️⃣ Clone the Repo
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/prathikshaj1203/dashboard-python.git
 cd dashboard-python
-2️⃣ Create a Virtual Environment (optional but recommended)
+2️⃣ Create a Virtual Environment (Optional but Recommended)
 bash
 Copy
 Edit
 python -m venv venv
-venv\Scripts\activate     # On Windows
+venv\Scripts\activate         # On Windows
 # OR
-source venv/bin/activate  # On Mac/Linux
-3️⃣ Install Requirements
+source venv/bin/activate      # On Mac/Linux
+3️⃣ Install Dependencies
 bash
 Copy
 Edit
@@ -55,12 +59,12 @@ Copy
 Edit
 python main.py
 Then open your browser and go to:
-➡️ http://127.0.0.1:8050/
+📍 http://127.0.0.1:8050/
 
 🛠️ Tech Stack
 Python 🐍
 
-Dash (by Plotly) 📊
+Dash by Plotly 📊
 
 📷 Screenshots
 🖥️ Main Dashboard View
@@ -81,22 +85,22 @@ Beginner-friendly code
 
 Easy to customize
 
-🧪 Future Improvements
+🌱 Future Improvements
 Add dropdowns or sliders for dynamic data
 
-Use Pandas for real data analysis
+Use Pandas for real-world data analysis
 
-Add Bootstrap or CSS for better styling
+Add Bootstrap or custom CSS for better styling
 
 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
 📄 License
 This project is open-source and available under the MIT License.
 
 ✨ Credits
-<<<<<<< HEAD
 Created with ❤️ by Prathiksha J
-=======
-Created with ❤️ by Prathiksha J
->>>>>>> 447a1d27ecbda85c3ee8214b97f104f3da3b9156
+
+yaml
+Copy
+Edit
