@@ -10,22 +10,20 @@ This dashboard demonstrates how to use Dash to create a simple web interface wit
 
 - 📈 A **Bar Chart**
 - 📉 A **Line Chart**
-- 🧠 Titles and axis labels
+- 🧠 Titles and Axis Labels
 
 ---
 
 ## 📂 Project Structure
 
-dashboard/
-│
+dashboard-python/
 ├── images/
 │ ├── Screenshot1.png
 │ ├── Screenshot2.png
 │ └── Screenshot3.png
-│
-├── main.py # Main Dash application
-├── requirements.txt # Required Python packages
-└── README.md # This file
+├── main.py
+├── requirements.txt
+└── README.md
 
 yaml
 Copy
@@ -35,31 +33,30 @@ Edit
 
 ## 💻 How to Run the Project
 
-### 1️⃣ Clone the Repository
-
+### 🔹 1. Clone the Repository
 ```bash
 git clone https://github.com/prathikshaj1203/dashboard-python.git
 cd dashboard-python
-2️⃣ Create a Virtual Environment (Optional but Recommended)
+🔹 2. Create a Virtual Environment (Optional but Recommended)
 bash
 Copy
 Edit
 python -m venv venv
-venv\Scripts\activate         # On Windows
+venv\Scripts\activate         # For Windows
 # OR
-source venv/bin/activate      # On Mac/Linux
-3️⃣ Install Dependencies
+source venv/bin/activate      # For Mac/Linux
+🔹 3. Install Required Packages
 bash
 Copy
 Edit
 pip install -r requirements.txt
-4️⃣ Run the App
+🔹 4. Run the App
 bash
 Copy
 Edit
 python main.py
-Then open your browser and go to:
-📍 http://127.0.0.1:8050/
+Then open your browser and visit:
+📍 http://127.0.0.1:8050
 
 🛠️ Tech Stack
 Python 🐍
@@ -93,14 +90,10 @@ Use Pandas for real-world data analysis
 Add Bootstrap or custom CSS for better styling
 
 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
 📄 License
 This project is open-source and available under the MIT License.
 
 ✨ Credits
 Created with ❤️ by Prathiksha J
-
-yaml
-Copy
-Edit
